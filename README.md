@@ -13,7 +13,6 @@ https://github.com/summernote/django-summernote
 ***
 
 **Setup**<br>
-<br>
 1. git clone https://github.com/Singlelogic/sysadmin.git
 2. cd ./sysadmin
 3. python3.8 -m venv ./venv
@@ -24,13 +23,13 @@ The application uses the PostgreSQL database.<br>
 Create the .env file in the application root using the SECRET_KEY environment variable (for example, SECRET_KEY = 'database_password').<br>
 Also set other settings for the database in the 'settings.py' file (NAME, USER...).<br>
 Or replace with the default settings when using the SQLite database.
-`
+```python
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-`
+```
 7. python manage.py migrate
 8. python manage.py runserver
