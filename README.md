@@ -20,8 +20,7 @@ https://github.com/summernote/django-summernote
 5. pip install -r requirements.txt
 6. Database
 The application uses the PostgreSQL database.<br>
-Create the .env file in the application root using the SECRET_KEY environment variable (for example, SECRET_KEY = 'database_password').<br>
-Also set other settings for the database in the 'settings.py' file (NAME, USER...).<br>
+Create the .env file in the application root using the SECRET_KEY environment variable (for example, SECRET_KEY = 'database_password'). Also set other settings for the database in the 'settings.py' file (NAME, USER...).<br>
 Or replace with the default settings when using the SQLite database.
 ```python
 DATABASES = {
