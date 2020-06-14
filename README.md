@@ -6,7 +6,7 @@ Sysadmin is а simple blog application made on Django.<br>
 
 **Creating and editing a post**<br>
 When creating and editing a post for the body of the post, the 'django-summernote' editor is used.
-<p>https://github.com/summernote/django-summernote</p>
+https://github.com/summernote/django-summernote<br>
 <img width="1280" alt="Снимок экрана 2020-06-13 в 20 23 39" src="https://user-images.githubusercontent.com/44861438/84575145-defb8c00-adb3-11ea-962c-3b0280a6f8e2.png">
 
 **PostgreSQL database**<br>
