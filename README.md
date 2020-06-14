@@ -9,7 +9,8 @@ When creating and editing a post for the body of the post, the 'django-summernot
 https://github.com/summernote/django-summernote
 <img width="1280" alt="Снимок экрана 2020-06-13 в 20 23 39" src="https://user-images.githubusercontent.com/44861438/84575145-defb8c00-adb3-11ea-962c-3b0280a6f8e2.png">
 
-**PostgreSQL database**<br>
+**Database**<br>
 The application uses the PostgreSQL database.<br>
-Create the .env file in the application root using the SECRET_KEY environment variable (for example, SECRET_KEY = 'database_password').
-Also set other settings for the database in the 'settings.py' file (NAME, USER...).
+Create the .env file in the application root using the SECRET_KEY environment variable (for example, SECRET_KEY = 'database_password').<br>
+Also set other settings for the database in the 'settings.py' file (NAME, USER...).<br>
+Or replace with the default settings when using the SQLite database.
