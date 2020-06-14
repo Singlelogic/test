@@ -12,7 +12,8 @@ https://github.com/summernote/django-summernote
 <img width="1280" alt="Снимок экрана 2020-06-13 в 20 23 39" src="https://user-images.githubusercontent.com/44861438/84575145-defb8c00-adb3-11ea-962c-3b0280a6f8e2.png">
 ***
 
-Setup
+**Setup**<br>
+<br>
 git clone https://github.com/Singlelogic/sysadmin.git
 cd ./sysadmin
 python3.8 -m venv ./venv
